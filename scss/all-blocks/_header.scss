@@ -1,0 +1,13 @@
+.header {
+    background-color: #151515;
+    padding-top: 40px;
+
+    &-top {
+      display: flex;
+      justify-content: space-between;
+
+      &__img {
+        cursor: pointer;
+      }
+    }
+}

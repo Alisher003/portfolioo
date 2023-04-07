@@ -4,18 +4,270 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=, initial-scale=1.0">
-    <link rel="stylesheet" href="./css/main.css">
-    <title>start</title>
+    <link rel="stylesheet" href="./scss/main.css">
+    <title>Portfolio</title>
 </head>
 <body>
     <!-- HEADER -->
-    <header></header>
+    <header class="header">
+        <div class="container">
+            <div class="header-top">
+                <img class="header-top__img" src="./img/portfolio-logo.svg" alt="">
+                <nav class="sitenav">
+                    
+                    <li class="sitenav-item">
+                        <img class="sitenav-item__img" src="./img/git-logo.svg" alt="">
+                    </li>
+                    <li class="sitenav-item">
+                        <img class="sitenav-item__img" src="./img/Shape.svg" alt="">
+                    </li>
+                    <li class="sitenav-item">
+                        <img class="sitenav-item__img" src="./img/linkidin-logo.svg" alt="">
+                    </li>
+                    <li class="sitenav-item">
+                        <img class="sitenav-item__img" src="./img/twiter-logo.svg" alt="">
+                    </li>
+                </nav>
+            </div>
+        </div>
+    </header>
 
     <!-- MAIN -->
-    <main></main>
+    <main class="main">
+        <div class="container">
+            <div class="main-top">
+                <div class="main-top-left">
+                    <h1 class="main-top-left__heading heading-one">Nice to meet you! <br>  I’m <span class="main-top-left__line">Adam Keyes.</span></h1>
+                    <p class="main-top-left__desc desc-one">Based in the UK, I’m a front-end developer <br> passionate about building accessible web apps <br> that users love.</p>
+                    <button class="main-top-left__btn btn-one">CONTACT ME</button>
+                </div>
+                <div class="main-top-right">
+                    <img class="main-top-right__img" src="./img/useeer.svg" alt="">
+                </div>
+            </div>
+        </div>
+    </main>
+
+<!-- info -->
+    <section class="info">
+        <div class="container">
+            <hr>
+            <div class="info-top">
+                <ul class="info-list">
+    
+                    <li class="info-list-item"">
+                        <h3 class="info-list-item__heading">HTML</h3>
+                        <p class="info-list-item__desc desc-one">4 Years Experience</p>
+                    </li>
+    
+                    <li class="info-list-item">
+                        <h3 class="info-list-item__heading">CSS</h3>
+                        <p class="info-list-item__desc desc-one">4 Years Experience</p>
+                    </li>
+    
+                    <li class="info-list-item">
+                        <h3 class="info-list-item__heading">Javascript</h3>
+                        <p class="info-list-item__desc">4 Years Experience</p>
+                    </li>
+    
+                </ul>
+    
+                <ul class="info-list" style="padding-top: 55px;">
+    
+                    <li class="info-list-item">
+                        <h3 class="info-list-item__heading">Accessibility</h3>
+                        <p class="info-list-item__desc">4 Years Experience</p>
+                    </li>
+    
+                    <li class="info-list-item">
+                        <h3 class="info-list-item__heading">React</h3>
+                        <p class="info-list-item__desc">3 Years Experience</p>
+                    </li>
+    
+                    <li class="info-list-item">
+                        <h3 class="info-list-item__heading">Sass</h3>
+                        <p class="info-list-item__desc">3 Years Experience</p>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <!-- projects -->
+    <section class="projects">
+        <div class="container">
+            <div class="projects-top">
+
+                <div class="projects-top-nav">
+                    <h1 class="projects-top-nav__heading heading-one">Projects</h1>
+                    <button class="projects-top-nav__btn btn-one">CONTACT ME</button>
+                </div>  
+                
+                <ul class="projects-top-list">
+                    <li class="projects-top-list-item">
+                        <div class="projects-top-hover">
+                            <div class="projects-top-hover-box">
+                                <button class="btn-one">VIEW PROJECT</button>
+                                <br>
+                                <button class="btn-one">VIEW CODE</button>
+                            </div>
+                            <img class="projects-top-list-item__img" src="./img/projectsOne.svg" alt="">
+                        </div>
+                        <h4 class="projects-top-list-item__heading">DESIGN PORTFOLIO</h4>
+                        <div class="projects-top-list-item-box">
+                            <p class="projects-top-list-item-box__desc">HTML</p>
+                            <p class="projects-top-list-item-box__desc">CSS</p>
+                        </div>
+                    </li>
+
+                    <li class="projects-top-list-item">
+                        <div class="projects-top-hover">
+                            <div class="projects-top-hover-box">
+                                <button class="btn-one">VIEW PROJECT</button>
+                                <br>
+                                <button class="btn-one">VIEW CODE</button>
+                            </div>
+                            <img class="projects-top-list-item__img" src="./img/projectsTwo.svg" alt="">
+                        </div>
+                        
+                        <h4 class="projects-top-list-item__heading">E-LEARNING LANDING PAGE</h4>
+                        <div class="projects-top-list-item-box">
+                            <p class="projects-top-list-item-box__desc">HTML</p>
+                            <p class="projects-top-list-item-box__desc">CSS</p>
+                        </div>
+                    </li>
+                </ul>
+
+                <ul class="projects-top-list">
+                    <li class="projects-top-list-item">
+                        <div class="projects-top-hover">
+                            <div class="projects-top-hover-box">
+                                <button class="btn-one">VIEW PROJECT</button>
+                                <br>
+                                <button class="btn-one">VIEW CODE</button>
+                            </div>
+                            <img class="projects-top-list-item__img" src="./img/projectsThre.svg" alt="">
+                        </div>
+                        <h4 class="projects-top-list-item__heading">TODO WEB APP</h4>
+                        <div class="projects-top-list-item-box">
+                            <p class="projects-top-list-item-box__desc">HTML</p>
+                            <p class="projects-top-list-item-box__desc">CSS</p>
+                            <p class="projects-top-list-item-box__desc">JAVASCRIPT</p>
+                        </div>
+                    </li>
+
+                    <li class="projects-top-list-item">
+                        <div class="projects-top-hover">
+                            <div class="projects-top-hover-box">
+                                <button class="btn-one">VIEW PROJECT</button>
+                                <br>
+                                <button class="btn-one">VIEW CODE</button>
+                            </div>
+                            <img class="projects-top-list-item__img" src="./img/projectsFore.svg" alt="">
+                        </div>
+                        <h4 class="projects-top-list-item__heading">ENTERTAINMENT WEB APP</h4>
+                        <div class="projects-top-list-item-box">
+                            <p class="projects-top-list-item-box__desc">HTML</p>
+                            <p class="projects-top-list-item-box__desc">CSS</p>
+                            <p class="projects-top-list-item-box__desc">JAVASCRIPT</p>
+                        </div>
+                    </li>
+                </ul>
+
+                <ul class="projects-top-list">
+                    <li class="projects-top-list-item">
+                        <div class="projects-top-hover">
+                            <div class="projects-top-hover-box">
+                                <button class="btn-one">VIEW PROJECT</button>
+                                <br>
+                                <button class="btn-one">VIEW CODE</button>
+                            </div>
+                            <img class="projects-top-list-item__img" src="./img/projectsFive.svg" alt="">
+                        </div>
+                        <h4 class="projects-top-list-item__heading">MEMORY GAME</h4>
+                        <div class="projects-top-list-item-box">
+                            <p class="projects-top-list-item-box__desc">HTML</p>
+                            <p class="projects-top-list-item-box__desc">CSS</p>
+                            <p class="projects-top-list-item-box__desc">JAVASCRIPT</p>
+                        </div>
+                    </li>
+
+                    <li class="projects-top-list-item">
+                        <div class="projects-top-hover">
+                            <div class="projects-top-hover-box">
+                                <button class="btn-one">VIEW PROJECT</button>
+                                <br>
+                                <button class="btn-one">VIEW CODE</button>
+                            </div>
+                            <img class="projects-top-list-item__img" src="./img/projectsSix.svg" alt="">
+                        </div>
+                        <h4 class="projects-top-list-item__heading">ART GALLERY SHOWCASE</h4>
+                        <div class="projects-top-list-item-box">
+                            <p class="projects-top-list-item-box__desc">HTML</p>
+                            <p class="projects-top-list-item-box__desc">CSS</p>
+                            <p class="projects-top-list-item-box__desc">JAVASCRIPT</p>
+                        </div>
+                    </li>
+                </ul>
+
+            </div>
+        </div>
+    </section>
+
+
+    <!-- contact -->
+    <section class="contact">
+        <div class="container">
+            <div class="contact-top">
+                <div class="contact-top-right">
+                    <h1 class="contact-top-right__heading heading-one">Contact</h1>
+                    <p class="contact-top-right__desc desc-one">I would love to hear about your project and how I <br> could help. Please fill in the form, and I’ll get back <br> to you as soon as possible.</p>
+                </div>
+                <div class="contact-top-left">
+                    <form>
+                        <input required class="contact-top-left__input desc-one" type="text" placeholder="NAME">
+                        <img class="contact-top-left__img" src="./img/required.svg" alt="">
+                        <br>
+                        <input required class="contact-top-left__input desc-one" type="text" placeholder="EMAIL">
+                        <img class="contact-top-left__img" src="./img/required.svg" alt="">
+                        <br>
+                        <input required style="height: 107px;" class="contact-top-left__input  desc-one" type="text" placeholder="MESSAGE">
+                        <img class="contact-top-left__img" src="./img/required.svg" alt="">
+                        <br>
+                        <button class="contact-top-left__btn  btn-one desc-one ">SEND MESSAGE</button>
+                    </form>
+                </div>
+            </div>
+            <hr>
+        </div>
+    </section>
+
 
     <!-- FOOTER -->
-    <footer></footer>
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-top">
+                <div class="header-top">
+                    <img class="header-top__img" src="./img/portfolio-logo.svg" alt="">
+                    <nav class="sitenav">
+                        
+                        <li class="sitenav-item">
+                            <img class="sitenav-item__img" src="./img/git-logo.svg" alt="">
+                        </li>
+                        <li class="sitenav-item">
+                            <img class="sitenav-item__img" src="./img/Shape.svg" alt="">
+                        </li>
+                        <li class="sitenav-item">
+                            <img class="sitenav-item__img" src="./img/linkidin-logo.svg" alt="">
+                        </li>
+                        <li class="sitenav-item">
+                            <img class="sitenav-item__img" src="./img/twiter-logo.svg" alt="">
+                        </li>
+                    </nav>
+                </div>
+            </div>
+        </div>
+    </footer>
 
 </body>
 </html>
