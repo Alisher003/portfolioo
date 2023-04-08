@@ -11,6 +11,8 @@
       padding: 127px 0px 150px 0px;
       
       &__heading {
+        max-width: 706px;
+        width: 100%;
         position: relative;
         z-index: 1;
         margin: 0;
@@ -34,12 +36,20 @@
     }
 
     &-right__img {
-      position: absolute;
-      width: 445px;
-      height: 720px;
-      margin-top: -110px;
-      margin-left: -435px;
+      margin-top: -140px;
     }
 
+  }
+}
+
+@media only screen and (max-width: 900px) {
+  .main-top {
+    flex-direction: column;
+    text-align: center;
+  }
+
+
+  .main-top-right {
+    order: -1;
   }
 }

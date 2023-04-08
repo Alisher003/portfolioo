@@ -12,7 +12,8 @@
       
 
       &__input {
-        width: 445px;
+        max-width: 445px;
+        width: 100%;
         padding: 15px;
         border: none;
         background-color: transparent;
@@ -42,4 +43,15 @@
   }
 
 
+}
+
+@media only screen and (max-width: 930px) {
+  .contact-top {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .contact-top-left__btn {
+    margin-left: 10%;
+  }
 }

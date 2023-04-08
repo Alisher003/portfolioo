@@ -75,3 +75,24 @@
 
   }
 }
+
+
+@media only screen and (max-width: 700px) {
+  .projects-top-nav {
+    flex-direction: column;
+  }
+
+  .projects-top-nav__btn {
+    padding-top: 40px;
+  }
+
+  .projects-top-list {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .projects-top-list-item-box {
+    padding-left: 35%;
+
+  }
+}
