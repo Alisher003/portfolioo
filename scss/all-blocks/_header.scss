@@ -1,29 +1,14 @@
 .header {
-    background-color: #151515;
     padding-top: 40px;
+    display: flex;
+    justify-content: space-between;
+    
 
-    &-top {
-      display: flex;
-      justify-content: space-between;
 
-      &__img {
-        cursor: pointer;
-        width: 129px;
-        height: 32px;
-        z-index: 1;
-      }
+    &__img {
+      cursor: pointer;
     }
-}
-
-@media only screen and (max-width: 900px) {
-  .header-top {
-    flex-direction: column;
-    align-items: center;
-  }
-  
-
-  .header-top__img {
-    margin-bottom: 20px;
-  }
 
 }
+
+

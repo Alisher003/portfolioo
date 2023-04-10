@@ -1,4 +1,4 @@
-.sitenav {
+.nav {
   list-style: none;
   padding: 0;
   margin: 0;
@@ -7,20 +7,16 @@
   position: relative;
   z-index: 1;
 
-  &-item {
-    &__img {
-      transition: 0.7s;
-      cursor: pointer;
-    }
+  &__img {
+    transition: 0.7s;
+    cursor: pointer;
   }
 }
 
-.sitenav-item__img:hover {
+.nav__img:hover {
   filter: invert(26%) sepia(73%) saturate(916%) hue-rotate(73deg) brightness(95%) contrast(85%);
 }
 
-.sitenav-item__img:active {
+.nav__img:active {
   filter: invert(26%);
 }
-
-

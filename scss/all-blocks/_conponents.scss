@@ -43,19 +43,6 @@
 
 
 // hover img
-.projects-top-hover:hover .projects-top-hover-box{
+.projects__hover:hover .projects__hover-box{
   margin-top: 0;
-}
-
-
-@media only screen and (max-width: 900px) {
-  .heading-one {
-    font-family: 'Space Grotesk';
-    font-style: normal;
-    font-weight: 700;
-    font-size: 32px;
-    line-height: 40px;
-    letter-spacing: -1px;
-    color: #FFFFFF;
-  }
 }

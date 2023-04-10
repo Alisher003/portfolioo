@@ -1,22 +1,22 @@
 .info {
-  background-color: #151515;
-  padding: 0px;
-  margin-top: -2px;
+  padding: 72px 0px 140px 0px;
 
-  &-top {
-    padding: 72px 0px 140px 0px;
-  }
 
-  &-list {
-    display: flex;
+  &__list {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    grid-column-gap: 0px;
+    grid-row-gap: 0px;
     list-style: none;
-    gap: 35px;
-
+    gap: 95px;
+    padding: 0;
+    margin: 0;
+  
     &-item {
-      max-width: 345px;
-      width: 100%;
+      width: 345px;
       
-
+  
       &__heading {
         font-family: 'Space Grotesk';
         font-style: normal;
@@ -27,7 +27,7 @@
         padding: 0;
         margin: 0;
       }
-
+  
       &__desc{
         font-family: 'Space Grotesk';
         font-style: normal;
@@ -40,15 +40,6 @@
       }
     }
   }
+    
 }
-
-@media only screen and (max-width: 768px) {
-  .info-list {
-    flex-direction: column;
-    text-align: center;
-  }
-
-  .info-list-item {
-    margin: 0 auto;
-  }
-}
+  
