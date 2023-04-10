@@ -12,7 +12,8 @@
     
 
     &__input {
-      width: 445px;
+      max-width: 445px;
+      width: 100%;
       padding: 15px;
       border: none;
       background-color: transparent;
@@ -41,3 +42,32 @@
   }
 
 }
+
+@media only screen and (max-width: 900px) {
+  .contact {
+    flex-direction: column;
+    padding: 20px 0;
+  }
+
+  .contact__article__heading {
+    font-family: 'Space Grotesk';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 40px;
+    text-align: center;
+  }
+
+  .contact__article__desc {
+    text-align: center;
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  .contact__aside__btn {
+    margin: 0;
+    margin-top: 10px;
+  }
+}
+
+

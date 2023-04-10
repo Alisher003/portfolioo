@@ -73,3 +73,26 @@
     }
   }
 }
+
+
+@media only screen and (max-width: 900px) {
+  .projects__nav__heading {
+    font-family: 'Space Grotesk';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 40px;
+  }
+}
+
+
+@media only screen and (max-width: 500px) {
+  .projects__list {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(6, 1fr);
+    grid-column-gap: 2px;
+    grid-row-gap: 0px;
+  }
+
+}
